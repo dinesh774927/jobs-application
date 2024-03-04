@@ -1,0 +1,68 @@
+.login-bg {
+  background-color: #121212;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.jobby-login {
+  background-color: #202020;
+  align-self: stretch;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.login-logo {
+  height: 30px;
+  margin-bottom: 30px;
+}
+.login-input-container {
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.login-label {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #cbd5e1;
+}
+.login-input {
+  font-size: 15px;
+  background-color: transparent;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #7e858e;
+  color: #ffffff;
+}
+.login-button {
+  background-color: #6366f1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  align-self: stretch;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.error {
+  align-self: flex-start;
+  color: #ff0b37;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .jobby-login {
+    align-self: center;
+    width: 500px;
+  }
+}
